@@ -1,0 +1,11 @@
+<p>
+  <strong>Location:</strong>
+  <% @shelf.each do |shelf| %>
+  <%= shelf.location %>
+</p>
+
+<p>
+  <strong>Books:</strong>
+  <%= @shelf.books %>
+</p>
+<% end %>
