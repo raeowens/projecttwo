@@ -1,0 +1,12 @@
+<h1>New Shelf</h1>
+
+<%= form_for :shelf, url: shelfs_path do |f| %>
+  <%= f.label :location %><br>
+  <%= f.text_field :location %>
+
+  <%= f.label :books %>
+  <%= f.text_field :books %>
+
+  <%= f.submit %>
+
+<% end %>
